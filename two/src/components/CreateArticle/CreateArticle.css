@@ -1,0 +1,65 @@
+.createarticles {
+    background-color: var(--primary-500);
+    padding: 2rem 1.5rem;
+    border-radius: 10px;
+    width: 400px;
+    
+}
+
+.createarticles textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    resize: none;
+    color: white;
+    font-size: 1rem;
+    background-color: var(--primary-600);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.createarticles button,
+label div {
+    background-color: rgba(255, 255, 255, 0.158);
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: relative;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label div img,
+.createarticles button img {
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-45%, -50%);
+}
+
+label div {
+    cursor: pointer;
+}
+
+.btns {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    float: right;
+}
+
+.uploaded-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .createarticles {
+        padding: 1rem;
+    }
+}

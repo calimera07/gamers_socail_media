@@ -1,0 +1,42 @@
+.hi{
+    position: absolute;
+    right: 112px;
+}
+h1{
+    position: absolute;
+    left: 500px;
+    color: brown;
+
+}
+.report{
+    position: absolute;
+    left: 930px;
+}
+.title{
+    position: relative;
+    text-align: center;
+}
+.post__dp {
+    border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%;
+    height: 50px;
+    width:50px;
+    
+}
+button{
+    all: unset;
+}
+.cap{
+    position: relative;
+    left: 150px;
+}
+.post__image{
+    width: 210px;
+    position: relative;
+    right: 150px;
+    display: inline-block;
+}
+.name{
+    position: relative;
+    left:10px ;
+    top: 10px;
+}

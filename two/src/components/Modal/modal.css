@@ -1,0 +1,21 @@
+.modal {
+   padding: 0.5rem 1rem;
+   background-color: white;
+   color: var(--primary-400);
+   left: 50%;
+   transform: translate(-50%, -120%);
+   position: absolute;
+   top: 0;
+   transition: transform 0.1s linear;
+   border-radius: 10px;
+   text-align: center;
+   z-index: 99;
+}
+
+.modal p {
+   font-size: 0.9rem;
+}
+
+.modal.visible {
+   transform: translate(-50%, 50px);
+}

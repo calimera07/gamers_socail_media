@@ -1,0 +1,26 @@
+.hi{
+    position: absolute;
+    right: 112px;
+}
+h1{
+    position: absolute;
+    left: 500px;
+}
+.reporto{
+    position: absolute;
+    left: 930px;
+}
+.title{
+    position: relative;
+    text-align: center;
+}
+.title_first{
+    font-size: 400px;
+}
+.cap h6{
+    -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+
+}
